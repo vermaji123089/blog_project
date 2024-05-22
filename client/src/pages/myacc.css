@@ -1,0 +1,66 @@
+body,html{
+    margin:0;
+    padding: 32px 48px;
+    fontfamily:'Lato','Helvetica','Arial';
+      
+   }
+   a{
+     text-decoration: none;
+     font-size:14px;
+     color: #0E71EB;
+   }
+   p{ font-weight: bold;
+      font-size: 13px;
+      margin:0px;
+      color: #232333;
+     margin:0 0 10px;
+   }
+   img{
+       width: 120px;
+       height: 120px;
+       border-radius: 24px;
+     }
+   .fullName{
+        font-weight: bold;
+       color: #232333;
+       font-size: 24px;
+   }
+   .profile-container{
+     display:flex;
+     width:100%;
+     padding: 12px 30px 4px;
+     border-bottom: 1px solid #eeeff2;
+   }
+   .control-label {
+       width: 220px;
+       padding:7px 15px 0;
+       margin-top: 0;
+       margin-bottom: 0;
+     }
+   
+   .form-control-static{
+     flex:1;
+     padding-top: 7px;
+     padding-right: 40px;
+     font-size: 13px;
+   }
+   .pic-action{
+     padding:2px 0 15px;
+     width: 120px;
+     text-align:center;
+   }
+   .Mnumber{
+     font-size:16px;
+   }
+   .instant{
+       color:#747487;
+   }
+
+
+   @media screen and (max-width:768px){
+    .sidebar-menu {
+        padding-top: 60px;
+        line-height: 8;
+        text-align: center;
+    }
+   }
